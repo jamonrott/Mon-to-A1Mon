@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <title>Mon-2-A1Mon Converter</title>
+	<STYLE TYPE="text/css">
+<!-- /* $WEFT -- Created by: ChanMon (monkyae@yahoo.com) on 2007/06/15 -- */
+  @font-face {
+    font-family: Mon;
+    font-style:  normal;
+    font-weight: 700;
+    src: url(MON1.eot);
+  }
+  @font-face {
+    font-family: Mon;
+    font-style:  normal;
+    font-weight: normal;
+    src: url(MON0.eot);
+  }
+.style1 {font-family: Mon}
+-->
+
+<!--
+h1,h2,h3,h4,h5,h6 {
+	font-family: Mon;
+}
+.style15 {font-family: Mon}
+.style16 {
+	color: #006600;
+	font-size: 18px;
+}
+.style20 {color: #FFFFFF}
+.style21 {font-size: 18px}
+.style22 {COLOR: #003333; FONT-FAMILY: Mon; font-weight: bold;}
+.style23 {font-family: Mon}
+-->
+</style><script src="convert_0.1_files/scriptjx.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico" >
+</head><body>
+<div>
+    
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr> 
+        <td height="39" bgcolor="#999999"> <p><font color="#FFFF00" size="5" face="Mon">Mon To A1Mon Converter [Created by ChanMon]</font></p>
+          </td>
+      </tr>
+      <tr> 
+        <td> <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+              <tr> 
+                <td style="width: 50%;"> 
+                  <textarea cols="65" rows="10" id="txtInput" style="font-family: Mon; font-size: 13px;"></textarea> 
+                </td>
+                <td>&nbsp; </td>
+              </tr>
+              <tr> 
+                <td> <textarea cols="65" rows="10" id="txtResult" style="font-family: A1Mon; font-size: 18px;" onkeyup="ConvertToUni(this, event)"></textarea> 
+                </td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td> <input onclick="ConvertToUnicode()" ;="" value="Convert" type="button"> 
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script language="javascript" type="text/javascript">
+    var unichar = "";
+    var unichar2 = "";
+    var backspace = 0;
+    var txt = document.getElementById("txtInput2");
+    var str = txt.value;
+    var keycode;
+
+        function ConvertToUnicode()
+        {
+            for(var i = 0; i <= document.getElementById("txtInput").value.length-1; i++)
+            {
+                keycode = document.getElementById("txtInput").value.charCodeAt(i);
+                switch(keycode) 
+                {
+		    case 4096 : keycode = 107; break;
+		    case 4097 : keycode = 75 ; break;
+		    case 4098 : keycode = 103; break;
+		    case 4099 : keycode = 71; break;
+		    case 4100 : keycode = 99; break;
+		    case 4101 : keycode = 115; break;
+		    case 4102 : keycode = 83 ; break;
+		    case 4103 : keycode = 122 ; break;
+		    case 4104 : keycode = 123 ; break;
+		    case 4105 : keycode = 205; break;
+		    case 4106 : keycode = 118; break;
+		    case 4107 : keycode = 33; break;
+		    case 4108 : keycode = 35; break;
+		    case 4109 : keycode = 59; break;
+		    case 4110 : keycode = 37; break;
+		    case 4111 : keycode = 36; break;
+		    case 4112 : keycode = 116; break;
+		    case 4113 : keycode = 84; break;
+		    case 4114 : keycode = 100; break;
+		    case 4115 : keycode = 68; break;
+		    case 4116 : keycode = 110; break;
+		    case 4117 : keycode = 112; break;
+		    case 4118 : keycode = 102; break;
+		    case 4119 : keycode = 98; break;
+		    case 4120 : keycode = 66; break;
+		    case 4121 : keycode = 109; break;
+		    case 4122 : keycode = 121; break;
+		    case 4123 : keycode = 114; break;
+		    case 4124 : keycode = 108; break;
+		    case 4125 : keycode = 119; break;
+		    case 4126 : keycode = 113; break;
+		    case 4127 : keycode = 104; break;
+		    case 4128 : keycode = 200; break;
+		    case 4176 : keycode = 47; break;
+			case 4129 : keycode = 97; break;
+			case 4130 : keycode = 198; break;
+			
+			case 4131 : keycode = 187; break;
+		    case 4132 : keycode = 43; break;
+		    case 4133 : keycode = 120; break;
+			
+		    case 4134 : keycode = 232; break;
+			
+			case 4135 : keycode = 196; break;
+			case 4136 : keycode = 191; break;
+			
+		    case 4137 : keycode = 235; break;
+		    case 4138 : keycode = 236; break;
+			
+		    case 4139 : keycode = 62; break;
+		    case 4140 : keycode = 46; break;
+		    case 4141 : keycode = 105; break;
+		    case 4142 : keycode = 74; break;
+		    case 4143 : keycode = 117; break;
+		    case 4144 : keycode = 85; break;
+		    case 4145 : keycode = 101; break;
+		    case 4146 : keycode = 89; break;
+		    case 4147 : keycode = 213; break;
+		    case 4148 : keycode = 234; break;
+			case 4149 : keycode = 111; break;
+		    case 4150 : keycode = 183; break;
+		    case 4151 : keycode = 60; break;
+		    case 4152 : keycode = 44; break;
+		    case 4153 : keycode = 106; break;
+		    case 4154 : keycode = 91; break;
+		    case 4155 : keycode = 92; break;
+		    case 4156 : keycode = 87; break;
+		    case 4157 : keycode = 72; break;
+			case 4158 : keycode = 78; break;
+			case 4159 : keycode = 77; break;
+		    case 4160 : keycode = 48; break;
+		    case 4161 : keycode = 49; break;
+		    case 4162 : keycode = 50; break;
+		    case 4163 : keycode = 51; break;
+		    case 4164 : keycode = 52; break;
+		    case 4165 : keycode = 53; break;
+		    case 4166 : keycode = 54; break;
+		    case 4167 : keycode = 55; break;
+		    case 4168 : keycode = 56; break;
+		    case 4169 : keycode = 57; break;
+			
+			case 4170 : keycode = 180; break;
+		    case 4171 : keycode = 226; break;
+		    case 4172 : keycode = 207; break;
+		    case 4173 : keycode = 185; break;
+		    case 4174 : keycode = 211; break;
+		    case 4175 : keycode = 61; break;
+		    case 4186 : keycode = 227; break;
+			case 4187 : keycode = 67; break;
+			case 4188 : keycode = 76; break;
+			case 4189 : keycode = 230; break;
+			case 4190 : keycode = 189; break;
+			case 4191 : keycode = 65; break;
+			
+		    case 4192 : keycode = 210; break;
+		    case 4193 : keycode = 201; break;
+		    case 4194 : keycode = 224; break;
+		    case 4195 : keycode = 172; break;
+		    case 4196 : keycode = 225; break;
+		    case 4197 : keycode = 203; break;
+		    case 4198 : keycode = 166; break;
+		    case 4199 : keycode = 166; break;
+		    case 4200 : keycode = 90; break;
+		    case 4201 : keycode = 238; break;
+		    case 4202 : keycode = 88; break;
+		    case 4203 : keycode = 86; break;
+		    case 4204 : keycode = 241; break;
+		    case 4205 : keycode = 242; break;
+		    case 4206 : keycode = 171; break;
+		    case 4207 : keycode = 182; break;
+		    case 4208 : keycode = 192; break;
+		    case 4209 : keycode = 208; break;
+		    case 4210 : keycode = 208; break;
+		    case 4211 : keycode = 184; break;
+		    case 4212 : keycode = 184; break;
+		    case 4213 : keycode = 161; break;
+		    case 4214 : keycode = 175; break;
+			
+			case 4215 : keycode = 236; break;
+		    case 4216 : keycode = 80; break;
+		    case 4217 : keycode = 70; break;
+		    case 4218 : keycode = 212; break;
+		    case 4219 : keycode = 218; break;
+		    case 4220 : keycode = 63; break;
+		    case 4221 : keycode = 186; break;
+		    case 4222 : keycode = 93; break;
+		    case 4223 : keycode = 124; break;
+		    case 4224 : keycode = 125; break;
+		    case 4225 : keycode = 163; break;
+		    case 4226 : keycode = 197; break;
+		    case 4227 : keycode = 165; break;
+		    case 4228 : keycode = 176; break;
+		    case 4229 : keycode = 202; break;
+		    case 4230 : keycode = 81; break;
+		    case 4231 : keycode = 167; break;
+		    case 4232 : keycode = 233; break;
+		    case 4233 : keycode = 231; break;
+		    case 4234 : keycode = 228; break;
+		    case 4235 : keycode = 232; break;
+		    case 4236 : keycode = 235; break;
+		    case 4237 : keycode = 169; break;
+		    case 4238 : keycode = 195; break;
+		    case 4239 : keycode = 215; break;
+		    case 4240 : keycode = 82; break;
+		    case 4241 : keycode = 64; break;
+		    case 4242 : keycode = 45; break;
+            	
+		    case 4243 : keycode = 123; break;
+		    case 4244 : keycode = 178; break;
+		    case 4245 : keycode = 193; break;
+		    case 4246 : keycode = 220; break;
+		    case 4247 : keycode = 219; break;
+		    case 4248 : keycode = 73; break;
+		    case 4249 : keycode = 79; break;
+		    case 4250 : keycode = 179; break;
+			case 4251 : keycode = 206; break;
+			case 4252 : keycode = 58; break;
+			case 4253 : keycode = 69; break;
+			case 4254 : keycode = 244; break;				
+            
+			case 34 : keycode = 34; break;
+case 47 : keycode = 38; break;
+case 39 : keycode = 39; break;
+case 39 : keycode = 164; break;
+case 39 : keycode = 245; break;
+case 40 : keycode = 40; break;
+case 41 : keycode = 41; break;
+case 63 : keycode = 42; break;
+case 37 : keycode = 94; break;
+case 61 : keycode = 95; break;
+case 43 : keycode = 162; break;
+case 45 : keycode = 248; break;
+case 215 : keycode = 170; break;
+case 247 : keycode = 249; break;
+case 247 : keycode = 254; break;
+
+		    	
+                }
+                unichar += String.fromCharCode(keycode);
+            }
+            document.getElementById("txtResult").value = unichar;
+            unichar = "";
+        }
+</script>
+</body></html>
